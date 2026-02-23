@@ -1,0 +1,423 @@
+Installing dependencies...
+npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm warn deprecated domexception@2.0.1: Use your platform's native DOMException instead
+npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+
+> the-business-hub-pakistan@0.0.0 prepare
+> husky
+
+.git can't be found
+added 1810 packages, and audited 1811 packages in 5m
+
+253 packages are looking for funding
+  run `npm fund` for details
+
+77 vulnerabilities (68 moderate, 9 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+Building React app...
+
+> the-business-hub-pakistan@0.0.0 build
+> vite build
+
+vite v7.1.11 building for production...
+transforming...
+✓ 3106 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                    2.18 kB │ gzip:   1.05 kB
+dist/assets/verifiedBadge-CrcJq1tD.webp           10.83 kB
+dist/assets/rectanglePlaceholder-nCbViREl.png     11.85 kB
+dist/assets/goldenCheck-CnSHOmXW.webp             13.45 kB
+dist/assets/irfanMalikBg-D4osmO_C.jpg             24.66 kB
+dist/assets/proposal6-wLmvSjqd.webp               28.15 kB
+dist/assets/placeholderMan-BvremNML.png           36.64 kB
+dist/assets/handShake-Dk1DoagP.webp               65.18 kB
+dist/assets/tower-gldBe0jJ.webp                   66.16 kB
+dist/assets/tower2-LuqAcWCu.jpg                   72.52 kB
+dist/assets/shakeelBg-NX99JDrP.jpg               143.15 kB
+dist/assets/MainLogo-DJpFhlQE.png                144.86 kB
+dist/assets/Fav-BPcykgsi.png                     147.34 kB
+dist/assets/akhtar-qLBVRLf-.jpg                  173.92 kB
+dist/assets/proposal5-DItum-r7.webp              174.24 kB
+dist/assets/tower3-DpFzgoGy.jpg                  175.56 kB
+dist/assets/proposal2-B9XZZX50.webp              192.62 kB
+dist/assets/meerShinyDress-C8scZpYx.webp         229.68 kB
+dist/assets/meerGreenJacket-ykCKR2uN.png         230.19 kB
+dist/assets/arabic-BElshnQY.jpg                  238.42 kB
+dist/assets/wasim-ETjjiRaD.jpg                   242.26 kB
+dist/assets/salman-DD3Zraly.jpg                  255.18 kB
+dist/assets/fahad-CnovJc60.jpg                   278.62 kB
+dist/assets/tech-BdWyL5Pa.jpg                    281.71 kB
+dist/assets/dubai-Bmqq4ymj.jpg                   311.77 kB
+dist/assets/wasimAkramBg-D4BFEYu1.png            313.57 kB
+dist/assets/proposal3-fxAFZeku.webp              445.47 kB
+dist/assets/proposal4-CZk7QC75.webp              542.86 kB
+dist/assets/proposal1-D37fvLUu.webp              779.05 kB
+dist/assets/wasimAkram-CBOcRO9q.png            4,488.96 kB
+dist/assets/BlogDetail-oNXnMkFG.css                0.63 kB │ gzip:   0.26 kB
+dist/assets/style-DpsRipQV.css                     3.23 kB │ gzip:   0.73 kB
+dist/assets/index-VEC6csTg.css                   154.74 kB │ gzip:  21.06 kB
+dist/assets/blogs-ChqPogSE.js                      0.04 kB │ gzip:   0.06 kB
+dist/assets/webinarBanner-XLbHXaFF.js              0.17 kB │ gzip:   0.15 kB
+dist/assets/useDebounce-B75MjDbu.js                0.19 kB │ gzip:   0.17 kB
+dist/assets/plus-CvS__Wy6.js                       0.33 kB │ gzip:   0.25 kB
+dist/assets/arrow-left-B2bf6Pc8.js                 0.34 kB │ gzip:   0.27 kB
+dist/assets/circle-check-B1_cwLkJ.js               0.35 kB │ gzip:   0.27 kB
+dist/assets/trending-up-CzL6HFSx.js                0.35 kB │ gzip:   0.27 kB
+dist/assets/ban-BQqScp6R.js                        0.35 kB │ gzip:   0.28 kB
+dist/assets/info-DXM6AGHl.js                       0.37 kB │ gzip:   0.28 kB
+dist/assets/rotate-ccw-BxQp6UBM.js                 0.37 kB │ gzip:   0.29 kB
+dist/assets/circle-x-a-7kCagC.js                   0.38 kB │ gzip:   0.28 kB
+dist/assets/Dashboard--hPIEolj.js                  0.39 kB │ gzip:   0.27 kB
+dist/assets/Dashboard-De1YFC18.js                  0.39 kB │ gzip:   0.27 kB
+dist/assets/upload-BGNL4-Mq.js                     0.40 kB │ gzip:   0.30 kB
+dist/assets/message-square-BF660vHs.js             0.41 kB │ gzip:   0.31 kB
+dist/assets/globe-GPPYIplt.js                      0.41 kB │ gzip:   0.29 kB
+dist/assets/message-circle-oVXZ5DHL.js             0.41 kB │ gzip:   0.31 kB
+dist/assets/circle-alert-CPX6SIX2.js               0.42 kB │ gzip:   0.29 kB
+dist/assets/external-link-B8dU56Gk.js              0.42 kB │ gzip:   0.30 kB
+dist/assets/funnel-DMSgP9GY.js                     0.42 kB │ gzip:   0.31 kB
+dist/assets/calendar-CqCFeOl_.js                   0.43 kB │ gzip:   0.31 kB
+dist/assets/pencil-DtimrrXA.js                     0.45 kB │ gzip:   0.33 kB
+dist/assets/bookmark-plus-Ca4dck9X.js              0.45 kB │ gzip:   0.32 kB
+dist/assets/shield-check-DkafIVF6.js               0.49 kB │ gzip:   0.35 kB
+dist/assets/sparkles-EiQIFHJN.js                   0.67 kB │ gzip:   0.39 kB
+dist/assets/CkEditor-cr1DoN-4.js                   0.85 kB │ gzip:   0.53 kB
+dist/assets/InfoBox-CNVWiqEj.js                    0.86 kB │ gzip:   0.43 kB
+dist/assets/CurrencyWithApprox-BT_jqNrt.js         0.91 kB │ gzip:   0.52 kB
+dist/assets/Tabs-yoP-Ol-K.js                       1.23 kB │ gzip:   0.65 kB
+dist/assets/ToggleChips-DqUqG3O1.js                1.68 kB │ gzip:   0.83 kB
+dist/assets/topCards-CVqocoye.js                   1.71 kB │ gzip:   0.74 kB
+dist/assets/ForgotPassword-DY7V1pZe.js             2.11 kB │ gzip:   1.06 kB
+dist/assets/FounderThankYou-DIizNzXl.js            2.22 kB │ gzip:   1.08 kB
+dist/assets/FilterDrawer-DzEWJurX.js               2.26 kB │ gzip:   0.96 kB
+dist/assets/ResetPassword-CGL0T0qc.js              2.34 kB │ gzip:   1.05 kB
+dist/assets/InvestorThankYou-D6EMpl_s.js           2.35 kB │ gzip:   1.15 kB
+dist/assets/MultipleImageUploader-BG7M_lvO.js      2.61 kB │ gzip:   1.14 kB
+dist/assets/toolbar-D95G3g_M.js                    2.69 kB │ gzip:   1.15 kB
+dist/assets/AuthCallback-VMv9yESC.js               2.71 kB │ gzip:   1.29 kB
+dist/assets/ImageUploader-C2lhE7H4.js              2.74 kB │ gzip:   1.19 kB
+dist/assets/index-Iwl1u346.js                      2.86 kB │ gzip:   1.36 kB
+dist/assets/index-H71kWQ_O.js                      2.99 kB │ gzip:   1.50 kB
+dist/assets/index-CJXmTWGm.js                      3.06 kB │ gzip:   1.48 kB
+dist/assets/supabase-bulk-emails-wEWvLSLe.js       3.14 kB │ gzip:   1.12 kB
+dist/assets/index-Cvrm9wHw.js                      3.19 kB │ gzip:   1.52 kB
+dist/assets/index-DNB6jr2j.js                      3.48 kB │ gzip:   1.67 kB
+dist/assets/index-CDf5FWqj.js                      3.51 kB │ gzip:   1.61 kB
+dist/assets/index-YI5M23_e.js                      3.63 kB │ gzip:   1.84 kB
+dist/assets/index-n-bkN1MF.js                      3.84 kB │ gzip:   1.89 kB
+dist/assets/index-DLEgOssf.js                      3.85 kB │ gzip:   1.89 kB
+dist/assets/index-AGveeb8x.js                      4.35 kB │ gzip:   1.98 kB
+dist/assets/index-CiFNsqK9.js                      4.46 kB │ gzip:   2.02 kB
+dist/assets/ContactSupport-4rplObOy.js             4.63 kB │ gzip:   1.93 kB
+dist/assets/Stepper-BilvpRjh.js                    4.66 kB │ gzip:   2.01 kB
+dist/assets/Login-BswYEbBb.js                      4.74 kB │ gzip:   1.95 kB
+dist/assets/index-XTZmrPHk.js                      5.04 kB │ gzip:   2.16 kB
+dist/assets/CreateBlog-B-LFNf_K.js                 5.16 kB │ gzip:   2.20 kB
+dist/assets/AllBlogs-BGD5CWT4.js                   5.17 kB │ gzip:   2.06 kB
+dist/assets/SelectRole-BJAJDTTb.js                 5.64 kB │ gzip:   2.39 kB
+dist/assets/VerifyUserEmail-BGdtmLBU.js            5.82 kB │ gzip:   2.09 kB
+dist/assets/EditBlog-DMhFqzIZ.js                   6.02 kB │ gzip:   2.57 kB
+dist/assets/SignUp-CCEVjpMH.js                     6.83 kB │ gzip:   2.58 kB
+dist/assets/Profile-GpkOs7NP.js                    6.86 kB │ gzip:   2.19 kB
+dist/assets/ViewRemindersModal-CRcO1v7D.js         6.92 kB │ gzip:   2.55 kB
+dist/assets/index-CkPSPTf6.js                      7.76 kB │ gzip:   3.16 kB
+dist/assets/index-C7FNiTb2.js                      8.01 kB │ gzip:   2.95 kB
+dist/assets/index-SDOSRhGk.js                      9.20 kB │ gzip:   3.80 kB
+dist/assets/businessProposalCard-DRlfRzuA.js       9.66 kB │ gzip:   3.29 kB
+dist/assets/index-tm5pR6Vn.js                      9.81 kB │ gzip:   3.62 kB
+dist/assets/index-Cu-zlxuo.js                      9.94 kB │ gzip:   3.22 kB
+dist/assets/table-NOPpVh2Y.js                     11.89 kB │ gzip:   3.72 kB
+dist/assets/SimplifiedProfile-Bw4_gsv6.js         13.76 kB │ gzip:   3.64 kB
+dist/assets/index-D53aL2gC.js                     15.62 kB │ gzip:   4.81 kB
+dist/assets/CreateNewBatch-B3p03-n2.js            16.75 kB │ gzip:   4.53 kB
+dist/assets/EditFounder-CThJOfy1.js               18.01 kB │ gzip:   4.37 kB
+dist/assets/index-D0edGtER.js                     18.47 kB │ gzip:   5.95 kB
+dist/assets/EditInvestor-BpXFlwsK.js              18.98 kB │ gzip:   4.65 kB
+dist/assets/index-CLqylSai.js                     20.05 kB │ gzip:   6.59 kB
+dist/assets/index-Bf04ZlrD.js                     20.29 kB │ gzip:   6.52 kB
+dist/assets/index-ClMbS5Gq.js                     21.30 kB │ gzip:   5.61 kB
+dist/assets/BlogDetail-Bk-i5JI-.js                21.83 kB │ gzip:   8.94 kB
+dist/assets/index-Dv40p1ka.js                     22.52 kB │ gzip:   6.67 kB
+dist/assets/ViewBusinessProposal-j78bJW_s.js      25.92 kB │ gzip:   6.37 kB
+dist/assets/index-D4InTkBS.js                     26.81 kB │ gzip:   8.51 kB
+dist/assets/Landing-Bpq0sPz2.js                  151.91 kB │ gzip:  53.56 kB
+dist/assets/xlsx-DGuHH-KN.js                     429.49 kB │ gzip: 143.07 kB
+dist/assets/index-BSMRtKiI.js                    629.11 kB │ gzip: 168.27 kB
+dist/assets/index-Do-dj3n5.js                  2,831.04 kB │ gzip: 756.36 kB
+
+(!) Some chunks are larger than 1500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 17.34s
+Packaging build...
+  adding: favicon.ico (deflated 13%)
+  adding: robots.txt (deflated 3%)
+  adding: sitemap.xml (deflated 60%)
+  adding: assets/ (stored 0%)
+  adding: assets/irfanMalikBg-D4osmO_C.jpg (deflated 1%)
+  adding: assets/meerGreenJacket-ykCKR2uN.png (deflated 0%)
+  adding: assets/meerShinyDress-C8scZpYx.webp (deflated 0%)
+  adding: assets/shakeelBg-NX99JDrP.jpg (deflated 0%)
+  adding: assets/wasimAkramBg-D4BFEYu1.png (deflated 0%)
+  adding: assets/dubai-Bmqq4ymj.jpg (deflated 0%)
+  adding: assets/fahad-CnovJc60.jpg (deflated 0%)
+  adding: assets/handShake-Dk1DoagP.webp (deflated 0%)
+  adding: assets/salman-DD3Zraly.jpg (deflated 0%)
+  adding: assets/tech-BdWyL5Pa.jpg (deflated 0%)
+  adding: assets/wasim-ETjjiRaD.jpg (deflated 0%)
+  adding: assets/placeholderMan-BvremNML.png (deflated 3%)
+  adding: assets/rectanglePlaceholder-nCbViREl.png (deflated 31%)
+  adding: assets/Fav-BPcykgsi.png (deflated 5%)
+  adding: assets/MainLogo-DJpFhlQE.png (deflated 4%)
+  adding: assets/goldenCheck-CnSHOmXW.webp (stored 0%)
+  adding: assets/verifiedBadge-CrcJq1tD.webp (deflated 1%)
+  adding: assets/akhtar-qLBVRLf-.jpg (deflated 1%)
+  adding: assets/arabic-BElshnQY.jpg (deflated 0%)
+  adding: assets/tower2-LuqAcWCu.jpg (deflated 2%)
+  adding: assets/tower3-DpFzgoGy.jpg (deflated 0%)
+  adding: assets/proposal2-B9XZZX50.webp (deflated 3%)
+  adding: assets/proposal3-fxAFZeku.webp (deflated 1%)
+  adding: assets/proposal5-DItum-r7.webp (deflated 4%)
+  adding: assets/proposal6-wLmvSjqd.webp (deflated 0%)
+  adding: assets/tower-gldBe0jJ.webp (deflated 0%)
+  adding: assets/proposal4-CZk7QC75.webp (deflated 1%)
+  adding: assets/proposal1-D37fvLUu.webp (deflated 1%)
+  adding: assets/wasimAkram-CBOcRO9q.png (deflated 1%)
+  adding: assets/index-VEC6csTg.css (deflated 86%)
+  adding: assets/BlogDetail-oNXnMkFG.css (deflated 62%)
+  adding: assets/style-DpsRipQV.css (deflated 78%)
+  adding: assets/index-Do-dj3n5.js (deflated 73%)
+  adding: assets/xlsx-DGuHH-KN.js (deflated 67%)
+  adding: assets/Landing-Bpq0sPz2.js (deflated 65%)
+  adding: assets/BlogDetail-Bk-i5JI-.js (deflated 59%)
+  adding: assets/AllBlogs-BGD5CWT4.js (deflated 61%)
+  adding: assets/index-H71kWQ_O.js (deflated 50%)
+  adding: assets/index-Iwl1u346.js (deflated 53%)
+  adding: assets/index-Cvrm9wHw.js (deflated 53%)
+  adding: assets/index-CJXmTWGm.js (deflated 52%)
+  adding: assets/index-CDf5FWqj.js (deflated 54%)
+  adding: assets/SignUp-CCEVjpMH.js (deflated 62%)
+  adding: assets/ForgotPassword-DY7V1pZe.js (deflated 51%)
+  adding: assets/VerifyUserEmail-BGdtmLBU.js (deflated 64%)
+  adding: assets/ResetPassword-CGL0T0qc.js (deflated 56%)
+  adding: assets/ContactSupport-4rplObOy.js (deflated 59%)
+  adding: assets/AuthCallback-VMv9yESC.js (deflated 53%)
+  adding: assets/SelectRole-BJAJDTTb.js (deflated 58%)
+  adding: assets/InvestorThankYou-D6EMpl_s.js (deflated 51%)
+  adding: assets/FounderThankYou-DIizNzXl.js (deflated 52%)
+  adding: assets/Login-BswYEbBb.js (deflated 59%)
+  adding: assets/Profile-GpkOs7NP.js (deflated 68%)
+  adding: assets/index-CkPSPTf6.js (deflated 59%)
+  adding: assets/index-D4InTkBS.js (deflated 68%)
+  adding: assets/EditInvestor-BpXFlwsK.js (deflated 76%)
+  adding: assets/index-Bf04ZlrD.js (deflated 68%)
+  adding: assets/ViewRemindersModal-CRcO1v7D.js (deflated 63%)
+  adding: assets/EditFounder-CThJOfy1.js (deflated 76%)
+  adding: assets/index-SDOSRhGk.js (deflated 59%)
+  adding: assets/index-CLqylSai.js (deflated 67%)
+  adding: assets/pencil-DtimrrXA.js (deflated 31%)
+  adding: assets/index-D0edGtER.js (deflated 68%)
+  adding: assets/ViewBusinessProposal-j78bJW_s.js (deflated 75%)
+  adding: assets/circle-check-B1_cwLkJ.js (deflated 27%)
+  adding: assets/index-Dv40p1ka.js (deflated 70%)
+  adding: assets/shield-check-DkafIVF6.js (deflated 32%)
+  adding: assets/sparkles-EiQIFHJN.js (deflated 45%)
+  adding: assets/trending-up-CzL6HFSx.js (deflated 26%)
+  adding: assets/globe-GPPYIplt.js (deflated 33%)
+  adding: assets/blogs-ChqPogSE.js (stored 0%)
+  adding: assets/calendar-CqCFeOl_.js (deflated 33%)
+  adding: assets/index-DNB6jr2j.js (deflated 53%)
+  adding: assets/message-circle-oVXZ5DHL.js (deflated 28%)
+  adding: assets/arrow-left-B2bf6Pc8.js (deflated 26%)
+  adding: assets/InfoBox-CNVWiqEj.js (deflated 51%)
+  adding: assets/info-DXM6AGHl.js (deflated 30%)
+  adding: assets/circle-alert-CPX6SIX2.js (deflated 36%)
+  adding: assets/index-BSMRtKiI.js (deflated 73%)
+  adding: assets/topCards-CVqocoye.js (deflated 58%)
+  adding: assets/webinarBanner-XLbHXaFF.js (deflated 25%)
+  adding: assets/CurrencyWithApprox-BT_jqNrt.js (deflated 45%)
+  adding: assets/ImageUploader-C2lhE7H4.js (deflated 57%)
+  adding: assets/external-link-B8dU56Gk.js (deflated 33%)
+  adding: assets/upload-BGNL4-Mq.js (deflated 31%)
+  adding: assets/table-NOPpVh2Y.js (deflated 69%)
+  adding: assets/toolbar-D95G3g_M.js (deflated 58%)
+  adding: assets/useDebounce-B75MjDbu.js (deflated 23%)
+  adding: assets/message-square-BF660vHs.js (deflated 29%)
+  adding: assets/funnel-DMSgP9GY.js (deflated 31%)
+  adding: assets/FilterDrawer-DzEWJurX.js (deflated 58%)
+  adding: assets/rotate-ccw-BxQp6UBM.js (deflated 28%)
+  adding: assets/ToggleChips-DqUqG3O1.js (deflated 52%)
+  adding: assets/circle-x-a-7kCagC.js (deflated 31%)
+  adding: assets/businessProposalCard-DRlfRzuA.js (deflated 66%)
+  adding: assets/ban-BQqScp6R.js (deflated 27%)
+  adding: assets/plus-CvS__Wy6.js (deflated 28%)
+  adding: assets/Tabs-yoP-Ol-K.js (deflated 49%)
+  adding: assets/Stepper-BilvpRjh.js (deflated 57%)
+  adding: assets/MultipleImageUploader-BG7M_lvO.js (deflated 57%)
+  adding: assets/index-Cu-zlxuo.js (deflated 68%)
+  adding: assets/supabase-bulk-emails-wEWvLSLe.js (deflated 65%)
+  adding: assets/CreateNewBatch-B3p03-n2.js (deflated 73%)
+  adding: assets/CkEditor-cr1DoN-4.js (deflated 40%)
+  adding: assets/index-XTZmrPHk.js (deflated 57%)
+  adding: assets/CreateBlog-B-LFNf_K.js (deflated 58%)
+  adding: assets/EditBlog-DMhFqzIZ.js (deflated 57%)
+  adding: assets/index-D53aL2gC.js (deflated 69%)
+  adding: assets/index-C7FNiTb2.js (deflated 63%)
+  adding: assets/Dashboard-De1YFC18.js (deflated 36%)
+  adding: assets/SimplifiedProfile-Bw4_gsv6.js (deflated 74%)
+  adding: assets/index-n-bkN1MF.js (deflated 51%)
+  adding: assets/index-CiFNsqK9.js (deflated 55%)
+  adding: assets/bookmark-plus-Ca4dck9X.js (deflated 33%)
+  adding: assets/index-YI5M23_e.js (deflated 50%)
+  adding: assets/index-AGveeb8x.js (deflated 55%)
+  adding: assets/Dashboard--hPIEolj.js (deflated 36%)
+  adding: assets/index-ClMbS5Gq.js (deflated 74%)
+  adding: assets/index-tm5pR6Vn.js (deflated 63%)
+  adding: assets/index-DLEgOssf.js (deflated 51%)
+  adding: index.html (deflated 52%)
+Saving Lightsail SSH key...
+Uploading build to Lightsail...
+Warning: Permanently added '15.207.22.250' (ED25519) to the list of known hosts.
+Deploying build to /var/www/html ...
+Archive:  /home/ubuntu/react-build.zip
+  inflating: /var/www/html/favicon.ico  
+  inflating: /var/www/html/robots.txt  
+  inflating: /var/www/html/sitemap.xml  
+   creating: /var/www/html/assets/
+  inflating: /var/www/html/assets/irfanMalikBg-D4osmO_C.jpg  
+  inflating: /var/www/html/assets/meerGreenJacket-ykCKR2uN.png  
+  inflating: /var/www/html/assets/meerShinyDress-C8scZpYx.webp  
+  inflating: /var/www/html/assets/shakeelBg-NX99JDrP.jpg  
+  inflating: /var/www/html/assets/wasimAkramBg-D4BFEYu1.png  
+  inflating: /var/www/html/assets/dubai-Bmqq4ymj.jpg  
+  inflating: /var/www/html/assets/fahad-CnovJc60.jpg  
+  inflating: /var/www/html/assets/handShake-Dk1DoagP.webp  
+  inflating: /var/www/html/assets/salman-DD3Zraly.jpg  
+  inflating: /var/www/html/assets/tech-BdWyL5Pa.jpg  
+  inflating: /var/www/html/assets/wasim-ETjjiRaD.jpg  
+  inflating: /var/www/html/assets/placeholderMan-BvremNML.png  
+  inflating: /var/www/html/assets/rectanglePlaceholder-nCbViREl.png  
+  inflating: /var/www/html/assets/Fav-BPcykgsi.png  
+  inflating: /var/www/html/assets/MainLogo-DJpFhlQE.png  
+ extracting: /var/www/html/assets/goldenCheck-CnSHOmXW.webp  
+  inflating: /var/www/html/assets/verifiedBadge-CrcJq1tD.webp  
+  inflating: /var/www/html/assets/akhtar-qLBVRLf-.jpg  
+  inflating: /var/www/html/assets/arabic-BElshnQY.jpg  
+  inflating: /var/www/html/assets/tower2-LuqAcWCu.jpg  
+  inflating: /var/www/html/assets/tower3-DpFzgoGy.jpg  
+  inflating: /var/www/html/assets/proposal2-B9XZZX50.webp  
+  inflating: /var/www/html/assets/proposal3-fxAFZeku.webp  
+  inflating: /var/www/html/assets/proposal5-DItum-r7.webp  
+  inflating: /var/www/html/assets/proposal6-wLmvSjqd.webp  
+  inflating: /var/www/html/assets/tower-gldBe0jJ.webp  
+  inflating: /var/www/html/assets/proposal4-CZk7QC75.webp  
+  inflating: /var/www/html/assets/proposal1-D37fvLUu.webp  
+  inflating: /var/www/html/assets/wasimAkram-CBOcRO9q.png  
+  inflating: /var/www/html/assets/index-VEC6csTg.css  
+  inflating: /var/www/html/assets/BlogDetail-oNXnMkFG.css  
+  inflating: /var/www/html/assets/style-DpsRipQV.css  
+  inflating: /var/www/html/assets/index-Do-dj3n5.js  
+  inflating: /var/www/html/assets/xlsx-DGuHH-KN.js  
+  inflating: /var/www/html/assets/Landing-Bpq0sPz2.js  
+  inflating: /var/www/html/assets/BlogDetail-Bk-i5JI-.js  
+  inflating: /var/www/html/assets/AllBlogs-BGD5CWT4.js  
+  inflating: /var/www/html/assets/index-H71kWQ_O.js  
+  inflating: /var/www/html/assets/index-Iwl1u346.js  
+  inflating: /var/www/html/assets/index-Cvrm9wHw.js  
+  inflating: /var/www/html/assets/index-CJXmTWGm.js  
+  inflating: /var/www/html/assets/index-CDf5FWqj.js  
+  inflating: /var/www/html/assets/SignUp-CCEVjpMH.js  
+  inflating: /var/www/html/assets/ForgotPassword-DY7V1pZe.js  
+  inflating: /var/www/html/assets/VerifyUserEmail-BGdtmLBU.js  
+  inflating: /var/www/html/assets/ResetPassword-CGL0T0qc.js  
+  inflating: /var/www/html/assets/ContactSupport-4rplObOy.js  
+  inflating: /var/www/html/assets/AuthCallback-VMv9yESC.js  
+  inflating: /var/www/html/assets/SelectRole-BJAJDTTb.js  
+  inflating: /var/www/html/assets/InvestorThankYou-D6EMpl_s.js  
+  inflating: /var/www/html/assets/FounderThankYou-DIizNzXl.js  
+  inflating: /var/www/html/assets/Login-BswYEbBb.js  
+  inflating: /var/www/html/assets/Profile-GpkOs7NP.js  
+  inflating: /var/www/html/assets/index-CkPSPTf6.js  
+  inflating: /var/www/html/assets/index-D4InTkBS.js  
+  inflating: /var/www/html/assets/EditInvestor-BpXFlwsK.js  
+  inflating: /var/www/html/assets/index-Bf04ZlrD.js  
+  inflating: /var/www/html/assets/ViewRemindersModal-CRcO1v7D.js  
+  inflating: /var/www/html/assets/EditFounder-CThJOfy1.js  
+  inflating: /var/www/html/assets/index-SDOSRhGk.js  
+  inflating: /var/www/html/assets/index-CLqylSai.js  
+  inflating: /var/www/html/assets/pencil-DtimrrXA.js  
+  inflating: /var/www/html/assets/index-D0edGtER.js  
+  inflating: /var/www/html/assets/ViewBusinessProposal-j78bJW_s.js  
+  inflating: /var/www/html/assets/circle-check-B1_cwLkJ.js  
+  inflating: /var/www/html/assets/index-Dv40p1ka.js  
+  inflating: /var/www/html/assets/shield-check-DkafIVF6.js  
+  inflating: /var/www/html/assets/sparkles-EiQIFHJN.js  
+  inflating: /var/www/html/assets/trending-up-CzL6HFSx.js  
+  inflating: /var/www/html/assets/globe-GPPYIplt.js  
+ extracting: /var/www/html/assets/blogs-ChqPogSE.js  
+  inflating: /var/www/html/assets/calendar-CqCFeOl_.js  
+  inflating: /var/www/html/assets/index-DNB6jr2j.js  
+  inflating: /var/www/html/assets/message-circle-oVXZ5DHL.js  
+  inflating: /var/www/html/assets/arrow-left-B2bf6Pc8.js  
+  inflating: /var/www/html/assets/InfoBox-CNVWiqEj.js  
+  inflating: /var/www/html/assets/info-DXM6AGHl.js  
+  inflating: /var/www/html/assets/circle-alert-CPX6SIX2.js  
+  inflating: /var/www/html/assets/index-BSMRtKiI.js  
+  inflating: /var/www/html/assets/topCards-CVqocoye.js  
+  inflating: /var/www/html/assets/webinarBanner-XLbHXaFF.js  
+  inflating: /var/www/html/assets/CurrencyWithApprox-BT_jqNrt.js  
+  inflating: /var/www/html/assets/ImageUploader-C2lhE7H4.js  
+  inflating: /var/www/html/assets/external-link-B8dU56Gk.js  
+  inflating: /var/www/html/assets/upload-BGNL4-Mq.js  
+  inflating: /var/www/html/assets/table-NOPpVh2Y.js  
+  inflating: /var/www/html/assets/toolbar-D95G3g_M.js  
+  inflating: /var/www/html/assets/useDebounce-B75MjDbu.js  
+  inflating: /var/www/html/assets/message-square-BF660vHs.js  
+  inflating: /var/www/html/assets/funnel-DMSgP9GY.js  
+  inflating: /var/www/html/assets/FilterDrawer-DzEWJurX.js  
+  inflating: /var/www/html/assets/rotate-ccw-BxQp6UBM.js  
+  inflating: /var/www/html/assets/ToggleChips-DqUqG3O1.js  
+  inflating: /var/www/html/assets/circle-x-a-7kCagC.js  
+  inflating: /var/www/html/assets/businessProposalCard-DRlfRzuA.js  
+  inflating: /var/www/html/assets/ban-BQqScp6R.js  
+  inflating: /var/www/html/assets/plus-CvS__Wy6.js  
+  inflating: /var/www/html/assets/Tabs-yoP-Ol-K.js  
+  inflating: /var/www/html/assets/Stepper-BilvpRjh.js  
+  inflating: /var/www/html/assets/MultipleImageUploader-BG7M_lvO.js  
+  inflating: /var/www/html/assets/index-Cu-zlxuo.js  
+  inflating: /var/www/html/assets/supabase-bulk-emails-wEWvLSLe.js  
+  inflating: /var/www/html/assets/CreateNewBatch-B3p03-n2.js  
+  inflating: /var/www/html/assets/CkEditor-cr1DoN-4.js  
+  inflating: /var/www/html/assets/index-XTZmrPHk.js  
+  inflating: /var/www/html/assets/CreateBlog-B-LFNf_K.js  
+  inflating: /var/www/html/assets/EditBlog-DMhFqzIZ.js  
+  inflating: /var/www/html/assets/index-D53aL2gC.js  
+  inflating: /var/www/html/assets/index-C7FNiTb2.js  
+  inflating: /var/www/html/assets/Dashboard-De1YFC18.js  
+  inflating: /var/www/html/assets/SimplifiedProfile-Bw4_gsv6.js  
+  inflating: /var/www/html/assets/index-n-bkN1MF.js  
+  inflating: /var/www/html/assets/index-CiFNsqK9.js  
+  inflating: /var/www/html/assets/bookmark-plus-Ca4dck9X.js  
+  inflating: /var/www/html/assets/index-YI5M23_e.js  
+  inflating: /var/www/html/assets/index-AGveeb8x.js  
+  inflating: /var/www/html/assets/Dashboard--hPIEolj.js  
+  inflating: /var/www/html/assets/index-ClMbS5Gq.js  
+  inflating: /var/www/html/assets/index-tm5pR6Vn.js  
+  inflating: /var/www/html/assets/index-DLEgOssf.js  
+  inflating: /var/www/html/index.html  
+Saving Git logs repo SSH key...
+Testing GitHub SSH key...
+Cloning deployment-logs repo...
+Cloning into 'logs-repo'...
